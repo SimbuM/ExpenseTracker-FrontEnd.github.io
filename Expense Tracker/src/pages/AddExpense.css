@@ -1,0 +1,78 @@
+.add-expense-page {
+    display: flex;
+    height: 100vh;
+    background-color: #121212;
+    color: #ffffff;
+  }
+  
+  .left-side, .right-side {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #9cd3d3;
+  }
+  
+  .image-container {
+    text-align: center;
+  }
+  
+  .image-container h2 {
+    margin: 10px 0;
+    color: #ffffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  .image-container p {
+    margin: 10px 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  .expense-image {
+    max-width: 80%;
+    height: auto;
+    border-radius: 15px; 
+    box-shadow: 0 4px 8px #657a7a;
+  }
+  
+  .right-side {
+    background-color: #333;
+    padding: 20px;
+    box-sizing: border-box;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url("C:\Users\Student.DK-37\Music\Project\frontend\public\f.jpg");
+  }
+  
+  .expense-form {
+    width: 100%;
+    max-width: 400px;
+    padding: 100px;
+
+  }
+  
+  .expense-form input, .expense-form select {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+  }
+  
+  .expense-form button {
+    padding: 10px 20px;
+    background-color: #41B06E;
+    border: none;
+    cursor: pointer;
+    color: #ffffff;
+  }
+  
+.expense-form h2{
+  color: #FFC94A;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+}
